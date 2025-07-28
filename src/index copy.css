@@ -46,7 +46,7 @@ canvas {
   }
 
   .btn {
-    @apply px-5 py-2 rounded-3xl bg-blue my-5 hover:bg-transparent border border-transparent hover:border hover:text-blue hover:border-blue;
+    @apply px-5 py-2 rounded-3xl bg-blue-400 my-5 hover:bg-transparent border border-transparent hover:border hover:text-blue-400 hover:border-blue-400;
   }
 
   .color-container {
@@ -66,11 +66,11 @@ canvas {
   }
 
   .section-heading {
-    @apply text-gray lg:text-6xl md:text-5xl text-3xl lg:mb-0 mb-5 font-medium opacity-0 translate-y-20;
+    @apply text-gray-400 lg:text-6xl md:text-5xl text-3xl lg:mb-0 mb-5 font-medium opacity-0 translate-y-20;
   }
 
   .feature-text {
-    @apply text-gray max-w-md text-lg md:text-xl font-semibold opacity-0 translate-y-[100px];
+    @apply text-gray-400 max-w-md text-lg md:text-xl font-semibold opacity-0 translate-y-[100px];
   }
 
   /* .feature-text-container {
@@ -79,7 +79,6 @@ canvas {
   .feature-text-container {
     @apply w-full flex items-center justify-center flex-col md:flex-row mt-10 md:mt-16 gap-5;
   }
-
   .feature-video {
     @apply w-full h-full object-cover object-center scale-150 opacity-0;
   }
@@ -89,7 +88,7 @@ canvas {
   }
 
   .link {
-    @apply text-blue hover:underline cursor-pointer flex items-center text-xl opacity-0 translate-y-20;
+    @apply text-blue-400 hover:underline cursor-pointer flex items-center text-xl opacity-0 translate-y-20;
   }
 
   /* .control-btn {
@@ -100,7 +99,7 @@ canvas {
   }
 
   .hero-title {
-    @apply text-center font-semibold text-3xl text-gray-100 opacity-0 max-md:mb-10;
+    @apply text-center font-semibold text-3xl text-gray-500 opacity-0 max-md:mb-10;
   }
 
   .hiw-title {
@@ -108,7 +107,7 @@ canvas {
   }
 
   .hiw-subtitle {
-    @apply text-gray font-semibold text-xl md:text-2xl py-10 text-center;
+    @apply text-gray-400 font-semibold text-xl md:text-2xl py-10 text-center;
   }
 
   .hiw-video {
@@ -120,7 +119,7 @@ canvas {
   }
 
   .hiw-text {
-    @apply text-gray text-xl font-normal md:font-semibold;
+    @apply text-gray-400 text-xl font-normal md:font-semibold;
   }
 
   .hiw-bigtext {

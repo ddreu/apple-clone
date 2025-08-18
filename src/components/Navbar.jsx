@@ -13,6 +13,7 @@ const Navbar = () => {
               className="px-5 text-sm cursor-pointer text-gray hover:text-white transition-all"
             >
               {nav}
+              
             </div>
           ))}
         </div>
